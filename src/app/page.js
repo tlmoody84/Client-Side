@@ -12,7 +12,6 @@ async function fetchSnacks(apiKey) {
     }
     return res.json();
 }
-// Page component (Server Component)
 export default async function Page() {
     const apiKey = process.env.NEXT_PUBLIC_ADMIN_API_KEY;
     console.log('API Key:', apiKey);
