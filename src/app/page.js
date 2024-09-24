@@ -36,7 +36,7 @@ export default async function Page() {
                         <li key={snack.id}>
                             <h3>{snack.name}</h3>
                             <p>{snack.description}</p>
-                            <span>${snack.price.toFixed(2)}</span> {/* Format price to 2 decimal places */}
+                            <span>${snack.price.toFixed(2)}</span> 
                         </li>
                     ))
                 ) : (
